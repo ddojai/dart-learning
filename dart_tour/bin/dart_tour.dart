@@ -1,4 +1,5 @@
 void main() {
-  final name = 'maximin';
-  // name = 'maximin';
+  late final String name;
+  name = '';
+  print(name);
 }
