@@ -1,5 +1,4 @@
 void main() {
-  late final String name;
-  name = '';
-  print(name);
+  const max_allowed_price = 120;
+  // const result = fetchApi();
 }
