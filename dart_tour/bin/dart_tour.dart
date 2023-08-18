@@ -1,4 +1,8 @@
 void main() {
-  String name = 'maximin';
-  name = 'ddojai';
+  String? maximin = 'maximin';
+  maximin = null;
+  if (maximin != null) {
+    maximin.isNotEmpty;
+  }
+  maximin?.isNotEmpty;
 }
